@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node example-server.js",
+    "start:browser": "serve"
+  },
+  "dependencies": {
+    "esm-package-browser-server": "^1.0.0",
+    "serve": "^14.2.3"
+  }
+}

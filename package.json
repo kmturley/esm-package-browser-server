@@ -1,0 +1,23 @@
+{
+  "name": "esm-package-browser-server",
+  "version": "1.0.1",
+  "description": "Example ESM package browser server",
+  "type": "module",
+  "main": "./src/browser.js",
+  "exports": {
+    "node": "./src/server.js",
+    "default": "./src/browser.js"
+  },
+  "author": "kmturley",
+  "license": "MIT",
+  "keywords": [
+    "esm",
+    "package",
+    "browser",
+    "server",
+    "isomorphic"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
